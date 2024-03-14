@@ -82,7 +82,6 @@ def linebot():
                 line_bot_api.reply_message(tk,ImageSendMessage(original_content_url=msg[1],preview_image_url=msg[1]))
     except:
         print('error')
-        print("12344")
     return 'OK'
 # 建立回覆圖片的函式
 def test():
